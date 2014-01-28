@@ -65,9 +65,9 @@ January 2012
 */
 
 translate([0,30,0])
-write("abcdefghijklmn",t=10.5,h=10,center=true);translate([0,0,0])
+write("abcdefghijklmn",t=10.5,h=10,center=true, font="Magic.dxf");translate([0,0,0])
 translate([0,15,0])
-write("opqrstuvwxyz",t=9,h=9,center=true);
+write("opqrstuvwxyz",t=9,h=9,center=true, font="Magic.dxf");
 translate([0,0,0])
 write("~!@#$%^&*()_-+=",t=7.5,h=8,center=true);
 translate([0,-15,0])
